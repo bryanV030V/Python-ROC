@@ -5,7 +5,7 @@ names_string = input("Enter the names separated by comma and space: ")
 
 # Split the input string into individual names
 names = names_string.split(", ")
-
+print(f"{names_string} list")
 # Count the number of names
 num_names = len(names)
 
